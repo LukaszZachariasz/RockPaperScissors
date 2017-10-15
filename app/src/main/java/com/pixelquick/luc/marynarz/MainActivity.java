@@ -250,8 +250,6 @@ public class MainActivity extends Activity {
         return;
     }
 
-    //asdasdasd
-
     @Override
     public void onBackPressed() {
         //Disabled back button
@@ -673,7 +671,5 @@ public class MainActivity extends Activity {
         }
         return true;
     }
-
-    ////asdasdasd
 
 }
