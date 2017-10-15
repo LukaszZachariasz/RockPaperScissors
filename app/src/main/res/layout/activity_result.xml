@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pixelquick.luc.marynarz.ResultActivity"
+    android:orientation="vertical"
+    android:background="@color/mainBackgroundColor"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/endGameLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G A M E"
+        android:textSize="40sp"
+        android:textColor="#FF212121"
+        android:clickable="false"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/endGameLabel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O V E R"
+        android:textSize="40sp"
+        android:paddingTop="30sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FF212121"
+        android:clickable="false"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textSize="50sp"
+        android:layout_marginTop="50sp"
+        android:textColor="#FF212121"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/bestScoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200"
+        android:textSize="30sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FF212121"
+        android:textAlignment="center" />
+
+    <Button
+        style="@android:style/MediaButton.Play"
+        android:id="@+id/repeatLabel"
+        android:text="T R Y   A G A I N"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:onClick="start"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="55sp"
+        android:textColor="#FF212121"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.pixelquick.luc.marynarz.AboutActivity">
+
+    <TextView
+        android:id="@+id/endGameLabel11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="G A M E"
+        android:textAlignment="center"
+        android:textColor="#FF212121"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/endGameLabel22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:fontFamily="sans-serif"
+        android:paddingTop="30sp"
+        android:text="C R E A T E"
+        android:textAlignment="center"
+        android:textColor="#FF212121"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/scoreLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="B Y"
+        android:textAlignment="center"
+        android:textColor="#FF212121"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/bestScoreLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif"
+        android:text="Lukasz\nZachariasz"
+        android:textAlignment="center"
+        android:textColor="#FF212121"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

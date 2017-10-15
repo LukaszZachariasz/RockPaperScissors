@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    android:orientation="vertical"
+    tools:context="com.pixelquick.luc.marynarz.MainActivity"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/scoreLabel"
+        android:background="@color/mainBackgroundColor">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="-100sp"
+            android:layout_marginTop="-220sp"
+            android:src="@drawable/cut_red" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="110sp"
+            android:layout_height="110sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="-220sp"
+            android:src="@drawable/rock_green" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-150sp"
+            android:src="@drawable/paper_blue" />
+
+
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center_vertical"
+            android:alpha="@android:integer/config_mediumAnimTime"
+            android:src="@drawable/cut_red" />
+
+
+        <ImageView
+            android:id="@+id/rock"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="-100sp"
+            android:src="@drawable/rock_green" />
+
+        <ImageView
+            android:id="@+id/paper"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="-100sp"
+            android:src="@drawable/paper_blue" />
+
+        <ImageView
+            android:id="@+id/cut"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginLeft="-100sp"
+            android:src="@drawable/cut_red" />
+
+
+        <TextView
+            android:id="@+id/startLabelRock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-80sp"
+            android:text="ROCK"
+            android:textAlignment="center"
+            android:textColor="#FF212121"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/startLabelPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-14sp"
+            android:text="PAPER"
+            android:textAlignment="center"
+            android:textColor="#FF212121"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/startLabelScissors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:text="SCISSORS"
+            android:textAlignment="center"
+            android:textColor="#FF212121"
+            android:textSize="40sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/mainBackgroundColor"
+        android:gravity="center"
+        android:paddingLeft="15sp"
+        android:text="0"
+        android:textColor="#FF212121"
+        android:textSize="40sp" />
+
+</RelativeLayout>
